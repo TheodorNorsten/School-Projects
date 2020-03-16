@@ -1,0 +1,40 @@
+R Federer
+0.95
+11
+14
+N Djokovic
+0.93
+11
+14
+A Agassi
+0.88
+6
+8
+J McEnroe
+0.89
+9
+12
+B Becker
+0.78
+9
+13
+B Borg
+0.85
+17
+26
+A Murray
+0.91
+13
+20
+R Nadal
+0.85
+16
+31
+J Näsman
+0.4
+7
+14
+B Tilden
+0.1
+4
+31

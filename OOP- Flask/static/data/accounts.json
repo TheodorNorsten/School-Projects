@@ -1,0 +1,106 @@
+{
+    "Accounts": [
+        {
+            "type": "Account",
+            "balance": 9499.0,
+            "id": 1,
+            "holders": []
+        },
+        {
+            "type": "Account",
+            "balance": 6698.0,
+            "id": 2,
+            "holders": [
+                [
+                    "bollen",
+                    "bols"
+                ],
+                [
+                    "theodor",
+                    "ted"
+                ]
+            ]
+        },
+        {
+            "type": "Account",
+            "balance": 8286.0,
+            "id": 3,
+            "holders": [
+                [
+                    "bollen",
+                    "bols"
+                ]
+            ]
+        },
+        {
+            "type": "SavingsAccount",
+            "balance": 10990.0,
+            "id": 4,
+            "holders": []
+        },
+        {
+            "type": "SavingsAccount",
+            "balance": 11800.0,
+            "id": 5,
+            "holders": [
+                [
+                    "bollen",
+                    "bols"
+                ],
+                [
+                    "theodor",
+                    "ted"
+                ]
+            ]
+        },
+        {
+            "type": "SavingsAccount",
+            "balance": 13197.0,
+            "id": 6,
+            "holders": [
+                [
+                    "buffen",
+                    "luffw"
+                ]
+            ]
+        },
+        {
+            "type": "Account",
+            "balance": 1000.0,
+            "id": 7,
+            "holders": [
+                [
+                    "theodor",
+                    "ted"
+                ]
+            ]
+        }
+
+    ],
+    "Persons": [
+        {
+            "name": "theodor",
+            "id": "ted"
+        },
+        {
+            "name": "theodor",
+            "id": "tedy"
+        },
+        {
+            "name": "bollen",
+            "id": "bols"
+        },
+        {
+            "name": "buffen",
+            "id": "luffw"
+        },
+        {
+            "name": "hola",
+            "id": "hum"
+        },
+        {
+            "name": "pulsen",
+            "id": "puls"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+}
+
+head{
+  width: 1000px;
+  height: 100px;
+
+}
+footer{
+  width: 1000px;
+  height: 100px;
+
+}
+
+.letter {
+  width: 50px;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  float:left;
+  border: 1px solid black;
+
+
+}
+
+p {
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+
+}
+.loseWin {
+
+
+}
+
+.test {
+  text-align: center;
+  margin: 20px;
+
+}
+
+
+.clicked {
+  width: 50px;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  float:left;
+  border: 1px solid black;
+
+
+}
+
+.letter:hover {
+  cursor: pointer;
+  background-color: yellow;
+}

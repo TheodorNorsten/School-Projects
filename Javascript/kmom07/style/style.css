@@ -1,0 +1,383 @@
+h1 {
+    text-align: center;
+}
+h2 {
+  text-align: center;
+  color: white;
+
+}
+br {
+  color: white;
+}
+
+
+
+.content {
+    border: 1px solid black;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+.quiz {
+  text-align: center;
+  height: 320px;
+  width: 600px;
+  border-style: dashed;
+  position: relative;
+  font-weight: bold;
+  background-color: #1AB1AD;
+
+}
+
+
+.question {
+  width: 100%;
+  height: 80px;
+  background-color: #245C8D;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.top {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 80px;
+  left:0;
+
+
+}
+.middle {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 160px;
+  left:0;
+
+}
+.bottom {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 240px;
+  left:0;
+
+
+}
+.under {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 320px;
+  left:0;
+
+}
+
+
+#next {
+  height: 75px;
+  width: 280px;
+  background-color: #EDA32C;
+  text-align: center;
+  /*border-style: dashed;*/
+  position: absolute;
+  top: 400px;
+  left: 320px;
+
+}
+#next:hover {
+  cursor: pointer;
+
+}
+.innerBtn {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #d90012;
+
+}
+.innerBtn:hover {
+  cursor: pointer;
+}
+
+.top:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+.middle:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+.bottom:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.under:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.flag {
+  position: relative;
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  margin-left: 5px;
+  /*background-color: black;*/
+}
+
+.flag.substitute::before {
+  content: '';
+  background: gray;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.flag.substitute:hover{
+  cursor: pointer;
+  background-color: black;
+}
+
+.flag-list {
+  position: absolute;
+  top: 16px;
+  right: 64px;
+}
+
+.armenia .top {
+  width: 100%;
+  height: 33.3%;
+  background-color: #d90012;
+  top:0;
+}
+
+.armenia .middle {
+  width: 100%;
+  height: 33.3%;
+  background-color:#0033a0;
+  top: 33.3%
+}
+.armenia .bottom {
+  width: 100%;
+  height: 33.3%;
+  background-color: #F2A800;
+  top:66.67%;
+}
+
+.bulgaria .top {
+  width: 100%;
+  height: 33.3%;
+  background-color: #fff;
+  top:0;
+}
+
+.bulgaria .middle {
+  width: 100%;
+  height: 33.3%;
+  background-color:#00966E;
+  top: 33.3%
+}
+.bulgaria .bottom {
+  width: 100%;
+  height: 33.3%;
+  background-color: #D62612;
+  top:66.67%;
+}
+
+.gabon .top {
+  width: 100%;
+  height: 33.3%;
+  background-color: #009e60;
+  top:0;
+}
+
+.gabon .middle {
+  width: 100%;
+  height: 33.3%;
+  background-color:#fcd116;
+  top: 33.3%
+}
+.gabon .bottom {
+  width: 100%;
+  height: 33.3%;
+  background-color: #3a75c4;
+  top:66.67%;
+}
+
+.lithuania .top {
+  width: 100%;
+  height: 33.3%;
+  background-color: #fdb913;
+  top:0;
+}
+
+.lithuania .middle {
+  width: 100%;
+  height: 33.3%;
+  background-color:#006a44;
+  top: 33.3%
+}
+.lithuania .bottom {
+  width: 100%;
+  height: 33.3%;
+  background-color: #c1272d;
+  top:66.67%;
+}
+
+.russia .top {
+  width: 100%;
+  height: 33.3%;
+  background-color: #fff;
+  top:0;
+}
+
+.russia .middle {
+  width: 100%;
+  height: 33.3%;
+  background-color:#0039a6;
+  top: 33.3%
+}
+
+.russia .bottom {
+  width: 100%;
+  height: 33.3%;
+  background-color: #d52b1e;
+  top:66.67%;
+}
+
+.austria .top {
+  width: 100%;
+  height: 33.3%;
+  background-color: #ed2939;
+  top:0;
+}
+
+.austria .middle {
+  width: 100%;
+  height: 33.3%;
+  background-color:#fff;
+  top: 33.3%
+}
+
+.austria .bottom {
+  width: 100%;
+  height: 33.3%;
+  background-color: #ed2939;
+  top:66.67%;
+}
+
+
+
+.bolivia .top{
+  width:100%;
+  height: 50%;
+  background-color: #fcd116;
+  position: absolute;
+  top: 0;
+
+
+}
+.bolivia .middle{
+  width:100%;
+  height: 25%;
+  background-color: #003893;
+  position: absolute;
+  top: 50%;
+
+
+}
+.bolivia .bottom{
+  width: 100%;
+  height:25%;
+  background-color: #ce1126;
+  position: absolute;
+  top: 75%;
+
+
+}
+
+
+
+.sweden {
+  background-color: #006aa7;
+
+}
+
+.sweden .vertical {
+  height: 100%;
+  width: 12.5%;
+  background-color: #fecc00;
+  position: absolute;
+  top: 0;
+  left: 31.25%;
+
+}
+
+.sweden .horizontal {
+
+  height: 20%;
+  width: 100%;
+  background-color: #fecc00;
+  position: absolute;
+  top: 40%;
+  left:0;
+
+}
+
+.norway {
+  background-color: #ef2b2d;
+}
+
+.norway .verticalinner {
+  background-color: #fff;
+  height: 100%;
+  width:18.18%;
+  position: absolute;
+  top:0;
+  left:27.27%;
+
+}
+
+.norway .horizontalinner {
+  background-color: #fff;
+  height: 25%;
+  width: 100%;
+  position: absolute;
+  top: 37.5%;
+  left:0;
+
+}
+
+.norway .verticaloutter {
+  background-color: #002868;
+  height: 100%;
+  width: 9.09%;
+  position: absolute;
+  top:0;
+  left: 31.81%;
+  z-index: 10;
+}
+.norway .horizontaloutter {
+  background-color: #002868;
+  height: 12.5%;
+  width: 100%;
+  position: absolute;
+  top: 43.75%;
+  left:0;
+
+
+
+}

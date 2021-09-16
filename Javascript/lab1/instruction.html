@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lab 1 - variables and builtins</title>
+<style>
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 8px auto;
+    max-width: 700px;
+}
+
+h2 {
+    line-height: 2.5em;
+    border-bottom: 1px solid #aaa;
+}
+
+h3 {
+    line-height: 2.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    margin-bottom: 22px;
+}
+
+div.answer {
+  font-family: "Courier New", monospace;
+  white-space: pre;
+  margin-bottom: 1em;
+}
+
+.fail {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.nopass {
+    color: olive;
+}
+
+.pass {
+    color: green;
+}
+
+.passdistinct {
+    color: DarkGoldenRod;
+}
+table, th, td {
+    border: 1px solid #666;
+}
+
+code {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 1px;
+    font-size: larger;
+}
+
+pre code {
+    display: block;
+    background-color: #eee;
+    border: none;
+    border-left: 2px solid #999;
+    padding: 0.5em;
+    margin-bottom: 22px;
+}
+</style>
+</head>
+<body>
+
+<pre>
+1c2c6251f450a7154d56eef92ea98d8a
+js
+lab1
+v1
+thno20
+2020-11-10 13:34:42
+v4.0.0 (2019-03-05)
+</pre>
+
+<p><i>Generated 2020-11-10 14:34:42 by <a href="https://github.com/dbwebb-se/lab">dbwebb lab-utility</a> v4.0.0 (2019-03-05).</i></p>
+<hr>
+
+<h1>Lab 1 - variables and builtins</h1>
+<p>The foundation of variables, numbers, strings and basic arithmetic and built in functions.</p>
+
+<p>Use MDN as your reference and base to solving the exercises.</p>
+
+
+<h2>1. Variables, numbers and built-in functions</h2>
+<p>Use variables, numbers and built-in functions.</p>
+
+<p>One way to round a float to a certain amount of decimals is:</p>
+
+<pre><code class="javascript">Math.round(val*10000)/10000
+</code></pre>
+
+<p>Where <code>val</code> is your float number.</p>
+
+
+<h3>Exercise 1.1 (1 points)</h3>
+<p>Create two variables, <code>floatOne</code> and <code>floatTwo</code>.</p>
+
+<p>Give them the values <code>281.26</code> and <code>644.15</code>.</p>
+
+<p>Create a variable called <code>result</code> and assign to it the sum of the variables above.</p>
+
+<p>Answer with the result, rounded to two decimals.</p>
+
+
+
+
+
+
+<h3>Exercise 1.2 (1 points)</h3>
+<p>Create a variable <code>someIntText</code> and give it a string value of <code>"434.901 chicken"</code>.</p>
+
+<p>Use the function <code>parseInt()</code> to find out the integer representation of the text.</p>
+
+<p>Assign the value to your <code>result</code>-variable.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 1.3 (1 points)</h3>
+<p>Use your variable <code>someIntText</code>.</p>
+
+<p>Use the function <code>parseFloat()</code> to find out the float representation of the text.</p>
+
+<p>Assign the value to your <code>result</code>-variable.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 1.4 (1 points)</h3>
+<p>Use the method <code>max()</code>, in Math, to find out the highest number in the serie:</p>
+
+<pre><code class="text">532,925,843,861
+</code></pre>
+
+<p>Assign the number to your <code>result</code>-variable.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 1.5 (1 points)</h3>
+<p>Use the Math property <code>PI</code> to get the float value of &#8216;Pi&#8217;. Round the result to 4 decimals.</p>
+
+<p>Assign the number to your <code>result</code>-variable.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+
+<h2>2. Strings and built-in functions</h2>
+<p>Work with strings and find out about the built-in functions.</p>
+
+
+<h3>Exercise 2.1 (1 points)</h3>
+<p>Create a variable called <code>wordOne</code> and assign the word &#8220;werewolf&#8221; to it.</p>
+
+<p>Add (concatenate) the number <code>447</code> to the word and answer with the resulting variable.</p>
+
+
+
+
+
+
+<h3>Exercise 2.2 (1 points)</h3>
+<p>Use the built-in method <code>charAt()</code> on the word &#8220;mouse&#8221; to return the character at a given index.</p>
+
+<p>Answer with the character at index 3.</p>
+
+
+
+
+
+
+<h3>Exercise 2.3 (1 points)</h3>
+<p>Use the built-in method <code>toUpperCase()</code> to transform the string:</p>
+
+<p><code>"Thank you very little."</code> to uppercase.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 2.4 (1 points)</h3>
+<p>Use the built-int property <code>length</code> to find out the length of the string: <code>"mouse"</code>.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 2.5 (1 points)</h3>
+<p>Use the built-int method <code>substr()</code> to extract the last three characters of the word: <code>"mouse"</code>.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+
+<h2>3. Extra assignments</h2>
+<p>Solve these optional questions to earn extra points.</p>
+
+
+<h3>Exercise 3.1 (3 points)</h3>
+<p>Create a Date object called <code>myDate</code> and initiate it with: <code>"Aug 21, 2011"</code>.</p>
+
+<p>Use the built-in function <code>Date.getFullYear()</code> to get the year from your Date object.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 3.2 (3 points)</h3>
+<p>Create a new Date object that is equal to <code>myDate</code> plus <code>21</code> days.</p>
+
+<p>Use <code>Date.getDate()</code> and answer with the day of the month.</p>
+
+
+
+
+
+
+
+<hr>
+<code>1c2c6251f450a7154d56eef92ea98d8a</code>
+
+</body>
+</html>
